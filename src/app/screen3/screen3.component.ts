@@ -77,8 +77,8 @@ export class Screen3Component implements OnInit {
       }
       if (this.listResponses.length==this.listQuestions.length && 
         this.optionsQuestion4.length== this.listResponsesQuestion4.length){
-          alert("aaa");
-      //enable btn
+          //enable btn
+          document.getElementById("btn-save-form").classList.remove("btn-disabled");
   }
 }
 onchangeQuestion4(optionid,questionoption){
